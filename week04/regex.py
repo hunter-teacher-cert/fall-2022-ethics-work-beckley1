@@ -1,12 +1,13 @@
+# Willy Wonka search by Ben Eckley
+# With a TON of help from Kiana Herr
+
 import re
 
 
 def find_name(line):
-    pattern = r"\d{1,2}/\d{1,2}/\d{2,4}"
+    pattern = r"((?:[A-Z][a-z,]*\.?\-? ?)+)"
     result = re.findall(pattern,line)
-
-    pattern=r'(October|Oct|November|Nov)( [0-9]{1,2}, [0-9]{4})'
-    result = result + re.findall(pattern,line)
+    
     return result
 
 

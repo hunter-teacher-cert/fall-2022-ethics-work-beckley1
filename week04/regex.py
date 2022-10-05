@@ -17,3 +17,5 @@ for line in f.readlines():
     result = find_name(line)
     if (len(result)>0):
         print(result)
+        
+# I had so many problems with this. Kiana helped me so much. I think this is finally finding all of the names in my text file but I need to try some other weird ones.

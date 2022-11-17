@@ -1,3 +1,6 @@
-# Description of Algorithm
+
+
+# Description of Plane Seating Algorithm
+---
 
 
